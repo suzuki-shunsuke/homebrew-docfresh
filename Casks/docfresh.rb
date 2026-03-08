@@ -3,7 +3,7 @@ cask "docfresh" do
   name "docfresh"
   desc "Make document maintainable, reusable, and testable."
   homepage "https://github.com/suzuki-shunsuke/docfresh"
-  version "0.0.1"
+  version "0.1.0"
 
   livecheck do
     skip "Auto-generated on release."
@@ -14,22 +14,22 @@ cask "docfresh" do
   on_macos do
     on_intel do
       url "https://github.com/suzuki-shunsuke/docfresh/releases/download/v#{version}/docfresh_darwin_amd64.tar.gz"
-      sha256 "c293029758bbf67a0aadda2bb658272b0483669573a80ddef0b054db9ba85cc8"
+      sha256 "e1b3613341f5d2cf218786e45695c6af8daa2eeddca97943cd8fa930b8e0600e"
     end
     on_arm do
       url "https://github.com/suzuki-shunsuke/docfresh/releases/download/v#{version}/docfresh_darwin_arm64.tar.gz"
-      sha256 "e71a918bfc90163193c383c1807c2acce9757aa6318b63fbdde95cd58e078812"
+      sha256 "05d8fb194eb5c2517aa39627f52e5debdeed1871ab99465c032051bd84a34715"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/suzuki-shunsuke/docfresh/releases/download/v#{version}/docfresh_linux_amd64.tar.gz"
-      sha256 "a9d336a451beee29011fd99937076132f70260f93653dd1cfba6cdce716cadb4"
+      sha256 "eb8e8874856906b031dfe7071e2bd9b59f2bdc971c47557064d6592eaa3af085"
     end
     on_arm do
       url "https://github.com/suzuki-shunsuke/docfresh/releases/download/v#{version}/docfresh_linux_arm64.tar.gz"
-      sha256 "dbd1df7038eb1cef2f826ff688718f6b9ab835ba64ed21107360fb8846afa5c6"
+      sha256 "06cdc81c8ace18c7058882490cb04422e334c395faab3aaec777c0187ce1e588"
     end
   end
 
